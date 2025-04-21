@@ -1,5 +1,7 @@
 # Домашнее задание к лекции «Классы, наследование»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/hskoyq6mjg4prwee?svg=true)](https://ci.appveyor.com/project/TanyaBazuto/class-inheritance)
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок.
