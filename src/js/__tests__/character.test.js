@@ -1,5 +1,15 @@
 import Character from '../character';
 
+test('creating a new character', () => {
+  const result = new Character('Char', 'Bowerman');
+  expect(result).toEqual({
+    name: 'Char',
+    type: 'Bowerman',
+    health: 100,
+    level: 1,
+  });
+});
+
 test('testing name is a string', () => {
   expect(() => new Character(123, 'Undead')).toThrow('NAME ERROR: name must be of type "String".');
 });
@@ -15,4 +25,3 @@ test('testing name contains more than 10 symbols', () => {
 test('testing type matches is expected', () => {
   expect(() => new Character('Mary', 'Zombies')).toThrow('TYPE ERROR: type is not defined.');
 });
-
